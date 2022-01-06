@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ETC/ANDROID DEV/Android Download Material/GoodNote/app/src/main/res/drawable-v24/button_bg.xml" value="0.21388888888888888" />
+        <entry key="..\:/ETC/ANDROID DEV/Android Download Material/GoodNote/app/src/main/res/drawable-v24/button_selector.xml" value="0.12916666666666668" />
+        <entry key="..\:/ETC/ANDROID DEV/Android Download Material/GoodNote/app/src/main/res/drawable-v24/edit_bg.xml" value="0.2484375" />
+        <entry key="..\:/ETC/ANDROID DEV/Android Download Material/GoodNote/app/src/main/res/drawable/back_dialog.xml" value="0.20833333333333334" />
+        <entry key="..\:/ETC/ANDROID DEV/Android Download Material/GoodNote/app/src/main/res/drawable/backgroun_dialog.xml" value="0.2484375" />
+        <entry key="..\:/ETC/ANDROID DEV/Android Download Material/GoodNote/app/src/main/res/drawable/bottomsheet_dialog.xml" value="0.2484375" />
+        <entry key="..\:/ETC/ANDROID DEV/Android Download Material/GoodNote/app/src/main/res/drawable/dialog_calender.xml" value="0.2484375" />
+        <entry key="..\:/ETC/ANDROID DEV/Android Download Material/GoodNote/app/src/main/res/drawable/priority_back.xml" value="0.2484375" />
+        <entry key="..\:/ETC/ANDROID DEV/Android Download Material/GoodNote/app/src/main/res/drawable/shape.xml" value="0.21388888888888888" />
+        <entry key="..\:/ETC/ANDROID DEV/Android Download Material/GoodNote/app/src/main/res/layout/activity_login.xml" value="0.21822916666666667" />
+        <entry key="..\:/ETC/ANDROID DEV/Android Download Material/GoodNote/app/src/main/res/layout/activity_main.xml" value="0.23229166666666667" />
+        <entry key="..\:/ETC/ANDROID DEV/Android Download Material/GoodNote/app/src/main/res/layout/activity_sign_up.xml" value="0.23229166666666667" />
+        <entry key="..\:/ETC/ANDROID DEV/Android Download Material/GoodNote/app/src/main/res/layout/activity_splash_screen.xml" value="0.23229166666666667" />
+        <entry key="..\:/ETC/ANDROID DEV/Android Download Material/GoodNote/app/src/main/res/layout/calender_dialog_fragment.xml" value="0.23229166666666667" />
+        <entry key="..\:/ETC/ANDROID DEV/Android Download Material/GoodNote/app/src/main/res/layout/calender_event_list.xml" value="0.4" />
+        <entry key="..\:/ETC/ANDROID DEV/Android Download Material/GoodNote/app/src/main/res/layout/dialog_completed.xml" value="0.23229166666666667" />
+        <entry key="..\:/ETC/ANDROID DEV/Android Download Material/GoodNote/app/src/main/res/layout/fragment_bottom_sheet.xml" value="0.23229166666666667" />
+        <entry key="..\:/ETC/ANDROID DEV/Android Download Material/GoodNote/app/src/main/res/layout/fragment_bottom_sheet_note.xml" value="0.23229166666666667" />
+        <entry key="..\:/ETC/ANDROID DEV/Android Download Material/GoodNote/app/src/main/res/layout/fragment_calender.xml" value="0.18725099601593626" />
+        <entry key="..\:/ETC/ANDROID DEV/Android Download Material/GoodNote/app/src/main/res/layout/fragment_notes.xml" value="0.23229166666666667" />
+        <entry key="..\:/ETC/ANDROID DEV/Android Download Material/GoodNote/app/src/main/res/layout/fragment_tasks.xml" value="0.23229166666666667" />
+        <entry key="..\:/ETC/ANDROID DEV/Android Download Material/GoodNote/app/src/main/res/layout/item_list.xml" value="0.4" />
+        <entry key="..\:/ETC/ANDROID DEV/Android Download Material/GoodNote/app/src/main/res/layout/notes_list.xml" value="0.536" />
+        <entry key="..\:/ETC/ANDROID DEV/Android Download Material/GoodNote/app/src/main/res/menu/edit_delete_menu.xml" value="0.23229166666666667" />
+        <entry key="..\:/ETC/ANDROID DEV/Android Download Material/GoodNote/app/src/main/res/menu/list_menu.xml" value="0.23229166666666667" />
+        <entry key="..\:/ETC/ANDROID DEV/Android Download Material/GoodNote/app/src/main/res/menu/main_menu.xml" value="0.1" />
+        <entry key="..\:/ETC/ANDROID DEV/Android Download Material/GoodNote/app/src/main/res/menu/note_edit_delete.xml" value="0.23229166666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

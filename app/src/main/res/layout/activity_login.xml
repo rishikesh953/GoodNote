@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.LoginActivity"
+    android:background="@drawable/background">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toTopOf="@+id/materialCardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.416"
+        app:lottie_autoPlay="true"
+        app:lottie_repeatMode="reverse"
+        app:lottie_repeatCount="10"
+        app:lottie_rawRes="@raw/succeslog">
+
+    </com.airbnb.lottie.LottieAnimationView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/materialCardView"
+        android:layout_width="match_parent"
+        android:layout_height="570dp"
+        app:cardCornerRadius="30dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/back">
+
+
+            <TextView
+                android:id="@+id/login_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.053" />
+
+            <EditText
+                android:id="@+id/email_login_editText"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:textColorHint="@color/black"
+                android:background="@drawable/edit_bg"
+                android:ems="10"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:padding="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.512"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/login_textView"
+                app:layout_constraintWidth_percent="0.8"
+                android:autofillHints="no" />
+
+            <EditText
+                android:id="@+id/Name_login_editText"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit_bg"
+                android:textColorHint="@color/black"
+                android:ems="10"
+                android:hint="Name"
+                android:inputType="textPersonName"
+                android:padding="8dp"
+                app:layout_constraintEnd_toEndOf="@+id/email_login_editText"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/email_login_editText"
+                app:layout_constraintTop_toBottomOf="@+id/email_login_editText"
+                app:layout_constraintWidth_percent="0.8" />
+
+            <EditText
+                android:id="@+id/password_login_editText"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit_bg"
+                android:textColorHint="@color/black"
+                android:ems="10"
+                android:hint="@string/password"
+                android:inputType="textPersonName"
+                android:padding="8dp"
+                app:layout_constraintEnd_toEndOf="@+id/Name_login_editText"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/Name_login_editText"
+                app:layout_constraintTop_toBottomOf="@+id/Name_login_editText"
+                app:layout_constraintWidth_percent="0.8"
+                tools:ignore="TextFields" />
+
+            <Button
+                android:id="@+id/Login_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_bg"
+                android:text="Login"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/password_login_editText"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/password_login_editText"
+                app:layout_constraintTop_toBottomOf="@+id/password_login_editText"
+                app:layout_constraintVertical_bias="0.317"
+                app:layout_constraintWidth_percent="0.3" />
+
+            <ImageView
+                android:id="@+id/phone_login_button"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:backgroundTint="@color/white"
+                android:clickable="true"
+                app:layout_constraintBottom_toBottomOf="@+id/google_login_button"
+                app:layout_constraintEnd_toStartOf="@+id/google_login_button"
+                app:layout_constraintHorizontal_bias="0.763"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/google_login_button"
+                app:layout_constraintVertical_bias="0.0"
+                android:src="@drawable/telephone" />
+
+            <ImageView
+                android:id="@+id/google_login_button"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="@color/white"
+                android:clickable="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Login_button"
+                app:layout_constraintVertical_bias="0.771"
+                android:src="@drawable/google"
+                android:focusable="true" />
+
+            <ImageView
+                android:id="@+id/facebook_login_button"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/white"
+                android:clickable="true"
+                android:contentDescription="@string/facebook_icon"
+                app:layout_constraintBottom_toBottomOf="@+id/google_login_button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.241"
+                app:layout_constraintStart_toEndOf="@+id/google_login_button"
+                app:layout_constraintTop_toTopOf="@+id/google_login_button"
+                app:layout_constraintVertical_bias="0.157"
+                android:src="@drawable/fb"
+                android:focusable="true" />
+
+            <Button
+                android:id="@+id/createAcc_btn"
+                android:layout_width="0dp"
+                app:layout_constraintWidth_percent="0.3"
+                android:background="@drawable/button_bg"
+                android:layout_height="50dp"
+                android:text="Sign Up"
+                app:layout_constraintBottom_toBottomOf="@+id/Login_button"
+                app:layout_constraintEnd_toEndOf="@+id/password_login_editText"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/Login_button"
+                app:layout_constraintTop_toTopOf="@+id/Login_button"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/forget_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/forgot_password"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="@+id/password_login_editText"
+                app:layout_constraintHorizontal_bias="0.949"
+                app:layout_constraintStart_toStartOf="@+id/password_login_editText"
+                app:layout_constraintTop_toBottomOf="@+id/password_login_editText" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:text="@string/good_to_see_you_again"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/lottieAnimationView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/lottieAnimationView2"
+        app:layout_constraintVertical_bias="0.533"
+        app:layout_constraintWidth_percent="0.4" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

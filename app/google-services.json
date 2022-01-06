@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "812561081159",
+    "project_id": "goodnote-b26ff",
+    "storage_bucket": "goodnote-b26ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812561081159:android:6c25607f9934eeeb5c6262",
+        "android_client_info": {
+          "package_name": "com.google.goodnote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "812561081159-4km697ff5jv8gdg32bf3ktv3fkkmetns.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.goodnote",
+            "certificate_hash": "9fa4492716cf7a1fad57f62f9c198469893de3d1"
+          }
+        },
+        {
+          "client_id": "812561081159-s4sd52qrpsntg9dv2aevj88mog89sg2j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLMDVoZo8B-JECWYb0w88T40BQEaXKJ0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "812561081159-s4sd52qrpsntg9dv2aevj88mog89sg2j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

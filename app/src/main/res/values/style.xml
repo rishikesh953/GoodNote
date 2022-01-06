@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style
+        name="BottomSheetStyle" parent="Theme.MaterialComponents.BottomSheetDialog">
+        
+       <item name="bottomSheetStyle">@style/Modal</item>
+
+    </style>
+
+
+    <style name="Modal" parent="Widget.MaterialComponents.BottomSheet.Modal">
+        <item name="android:background"> @drawable/bottomsheet_dialog_background</item>
+
+    </style>
+
+    <style
+        name="CalenderDialog" parent="Theme.MaterialComponents.Dialog">
+
+        <item name="bottomSheetStyle">@style/Modal_calender</item>
+
+    </style>
+
+
+    <style name="Modal_calender" parent="Theme.MaterialComponents.Dialog">
+        <item name="android:background"> @drawable/dialog_calender</item>
+
+    </style>
+
+    <style name="AppTheme.Dialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>
